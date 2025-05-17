@@ -274,8 +274,7 @@ WeaponsList['akaviri longbow'] = {
 	explanation of what that special property is.
 	If you decide to do so, than don't forget to set the `special` attribute but true (see below).
 */
-  tooltip:
-    "Special: I have disadvantage when I use a lance to attack a target within 5 feet. Also, a lance requires two hands to wield when I'm not mounted.",
+  tooltip: 'Counts as magical for overcoming resistance to nonmagical attacks and damage.',
   /*	tooltip // OPTIONAL //
 	TYPE:	string
 	USE:	this will be added as a tooltip to the Description field for the attack
