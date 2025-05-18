@@ -284,7 +284,7 @@ WeaponsList['akaviri longbow'] = {
 	The tooltip is only available when the sheet is used in Adobe Acrobat,
 	it won't show up on a printed version of the sheet (also not when printed to PDF).
 */
-  special: true,
+  special: false,
   /*	special // OPTIONAL //
 	TYPE:	boolean
 	USE:	whether (true) or not (false) this weapon has the 'special' property
@@ -296,7 +296,7 @@ WeaponsList['akaviri longbow'] = {
 
 	Setting this to false is the same as not including this attribute.
 */
-  list: 'melee',
+  list: 'ranged',
   /*	type // OPTIONAL //
 	TYPE:	string
 	USE:	determines the sorting of the weapon in the drop-down field
@@ -322,7 +322,7 @@ WeaponsList['akaviri longbow'] = {
 	The 'list' attribute is ignored for WeaponsList objects used in the 'weaponOptions' attribute.
 	Instead, all things added using the 'weaponOptions' attribute will always be added at the top of the drop-down field.
 */
-  weight: 24,
+  weight: 2,
   /*	weight // OPTIONAL //
 	TYPE:	number
 	USE:	the weight of the weapon in lb
@@ -330,7 +330,7 @@ WeaponsList['akaviri longbow'] = {
 	If the weapon doesn't have a listed weight, you can just leave this attribute out.
 	Setting this to 0 is the same as not including this attribute.
 */
-  dc: true,
+  dc: false,
   /*	dc // OPTIONAL //
 	TYPE:	boolean
 	USE:	whether (true) or not (false) this weapon uses a DC instead of a To Hit
@@ -343,7 +343,7 @@ WeaponsList['akaviri longbow'] = {
 
 	Setting this to false is the same as not including this attribute.
 */
-  modifiers: [1, ''],
+  modifiers: [2, 2],
   /*	modifiers // OPTIONAL //
 	TYPE:	array with 2 entries
 	USE:	add something to the weapon's modifier fields
@@ -372,7 +372,7 @@ WeaponsList['akaviri longbow'] = {
 
 	Setting both entries of the array to either 0 or an empty string ("") is the same as not including this attribute.
 */
-  monkweapon: true,
+  monkweapon: false,
   /*	monkweapon // OPTIONAL //
 	TYPE:	boolean
 	USE:	whether (true) or not (false) this weapon is a monk weapon and should use the Martial Arts die
@@ -395,7 +395,7 @@ WeaponsList['akaviri longbow'] = {
 
 	Setting this to false is the same as not including this attribute.
 */
-  isNotWeapon: true,
+  isNotWeapon: false,
   /*	isNotWeapon // OPTIONAL //
 	TYPE:	boolean
 	USE:	whether (false) or not (true) this attack is counted as a weapon
@@ -426,7 +426,7 @@ WeaponsList['akaviri longbow'] = {
 
 	Setting this to false is the same as not including this attribute.
 */
-  isAlwaysProf: true,
+  //  isAlwaysProf: true,
   /*	isAlwaysProf // OPTIONAL //
 	TYPE:	boolean
 	USE:	whether (true) or not (false) the proficiency bonus should always be added for this weapon
@@ -462,7 +462,7 @@ WeaponsList['akaviri longbow'] = {
 
 	Setting this to false is NOT the same as not including this attribute!
 */
-  ammo: 'bolt',
+  ammo: 'arrow',
   /*	ammo // OPTIONAL //
 	TYPE:	string
 	USE:	the AmmoList object name of the ammunition that this attack uses
@@ -477,7 +477,7 @@ WeaponsList['akaviri longbow'] = {
 
 	Setting this to an empty string ("") is the same as not including this attribute.
 */
-  SpellsList: 'eldritch blast',
+  //  SpellsList: '',
   /*	SpellsList // OPTIONAL //
 	TYPE:	string
 	USE:	the SpellsList object name that this attack is linked to
@@ -490,7 +490,7 @@ WeaponsList['akaviri longbow'] = {
 
 	Setting this to an empty string ("") is the same as not including this attribute.
 */
-  useSpellcastingAbility: true,
+  //  useSpellcastingAbility: true,
   /*	useSpellcastingAbility // OPTIONAL //
 	TYPE:	boolean
 	USE:	force the use of the spellcasting ability for the weapon
@@ -518,7 +518,7 @@ WeaponsList['akaviri longbow'] = {
 
 	Setting this to false is NOT the same as not including this attribute!
 */
-  useSpellMod: 'wizard',
+  //  useSpellMod: 'wizard',
   /*	useSpellMod // OPTIONAL //
 	TYPE:	string
 	USE:	the object name of a spellcasting object that this attack will use the spell attack/DC from
@@ -551,7 +551,7 @@ WeaponsList['akaviri longbow'] = {
 
 	Setting this to an empty string ("") is the same as not including this attribute.
 */
-  baseWeapon: 'longsword',
+  baseWeapon: 'longbow',
   /*	baseWeapon // OPTIONAL //
 	TYPE:	string
 	USE:	the WeaponsList object name that this attack is based on
@@ -574,7 +574,7 @@ WeaponsList['akaviri longbow'] = {
 
 	Setting this to an empty string ("") is the same as not including this attribute.
 */
-  selectNow: true,
+  //  selectNow: true,
   /*	selectNow // OPTIONAL //
 	TYPE:	boolean
 	USE:	whether (true) or not (false) this weapon should immediately be selected
