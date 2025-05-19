@@ -35,7 +35,7 @@ WeaponsList['akaviri longbow'] = {
   range: '150/600 ft',
   /*  range                     // REQUIRED // normal/long range in feet */
 
-  description: 'Heavy, ammunition, two-handed',
+  description: 'Heavy, ammunition, two-handed, magical damage',
   /*  description               // REQUIRED // weapon properties */
 
   tooltip:
