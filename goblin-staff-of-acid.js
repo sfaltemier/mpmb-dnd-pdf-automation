@@ -8,10 +8,10 @@ MagicItemsList['goblin staff of acid'] = {
   name: 'Goblin Staff of Acid',
   /*  name                      // REQUIRED // display name of the magic item */
 
-  // sortname : "Staff, Goblin Acid",
+  sortname: 'Staff, Goblin Acid',
   /*  sortname                  // OPTIONAL // custom sort name in menu; default works */
 
-  // nameAlt : ["Staff of Acid, Goblin"],
+  nameAlt: ['Staff of Acid, Goblin'],
   /*  nameAlt                   // OPTIONAL // alt dropdown names; not needed */
 
   source: ['HB', 0],

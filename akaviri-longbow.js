@@ -8,7 +8,7 @@ WeaponsList['akaviri longbow'] = {
   name: 'Akaviri Longbow',
   /*  name                      // REQUIRED // display name of the weapon */
 
-  // nameAlt : ["Longbow, Akaviri"],
+  nameAlt: ['Longbow, Akaviri'],
   /*  nameAlt                   // OPTIONAL // alt dropdown names; commented out because not needed */
 
   source: ['HB', 0],
