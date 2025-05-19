@@ -1,4 +1,4 @@
-var iFileName = 'Homebrew - Goblin Staff of Acid.js';
+var iFileName = 'goblin-staff-of-acid.js';
 /*  iFileName                // OPTIONAL // name displayed in the import dialog */
 
 RequiredSheetVersion('13.2.3');

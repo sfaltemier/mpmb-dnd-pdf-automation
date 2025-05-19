@@ -1,4 +1,4 @@
-var iFileName = 'Homebrew - Akaviri Longbow.js';
+var iFileName = 'akaviri-longbow.js';
 /*  iFileName                // OPTIONAL // name displayed in the import dialog */
 
 RequiredSheetVersion('13.2.0');
